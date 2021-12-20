@@ -1,25 +1,34 @@
 {
-  "name": "mfc-charts",
-  "version": "0.0.1",
-  "author": "facobackup",
-  "license": "MIT",
-  "main": "dist/index.js",
+  "name": "@f-ui/charts",
+  "version": "0.0.1-alpha",
+  "description": "React charts",
   "module": "dist/index.modern.js",
-  "source": "src/index.js",
+  "main": "src/index.js",
   "engines": {
     "node": ">=10"
+  },
+  "directories": {
+    "doc": "docs"
   },
   "scripts": {
     "start": "rollup -c "
   },
-
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FacoBackup/fabric-ui-charts.git"
+  },
+  "keywords": [
+    "Charts",
+    "Canvas",
+    "UI",
+    "UX",
+    "data"
+  ],
   "peerDependencies": {
+    "@f-ui/core": "^0.0.1-alpha",
     "prop-types": "^15.7.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-input-mask": "^2.0.4",
-    "axios": "^0.24.0",
-
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
@@ -33,7 +42,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "postcss": "^8.3.4",
-    "react-scripts": "^1.0.17",
+    "react-scripts": "^5.0.0",
     "rollup": "^2.59.0",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
@@ -45,23 +54,10 @@
   "files": [
     "dist"
   ],
-  "description": "Useful React components.",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FacoBackup/mfc-charts.git"
-  },
-  "keywords": [
-    "react",
-    "react-component",
-    "graph",
-    "chart",
-    "canvas"
-  ],
+  "author": "Facobackup",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FacoBackup/mfc-core/issues"
+    "url": "https://github.com/FacoBackup/fabric-ui-charts/issues"
   },
-  "homepage": "https://mfc-documentation-vercel.vercel.app/en",
-  "dependencies": {
-    "mfc-core": "latest"
-  }
+  "homepage": "https://github.com/FacoBackup/fabric-ui-charts#readme"
 }
